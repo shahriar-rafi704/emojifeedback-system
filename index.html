@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Feedback System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="feedback-container">
+        <div class="feedback-header">
+            <h1>Feedback System</h1>
+        </div>
+        <div class="emoji-container">
+            <div class="emoji" data-emoji="😄">😄</div>
+            <div class="emoji" data-emoji="😍">😍</div>
+            <div class="emoji" data-emoji="😊">😊</div>
+            <div class="emoji" data-emoji="😐">😐</div>
+            <div class="emoji" data-emoji="😕">😕</div>
+            <div class="emoji" data-emoji="😞">😞</div>
+            <div class="emoji" data-emoji="😢">😢</div>
+        </div>
+        <div id="selected-emoji" class="selected-emoji">Select an emoji</div>
+        <div class="emoji-description" id="emoji-description"></div>
+        <div class="feedback-form">
+            <textarea id="feedback-text" placeholder="Enter your feedback here..."></textarea>
+            <input type="number" id="rating" placeholder="Rating (1-5)">
+            <button id="submit-feedback">Submit</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
